@@ -8,7 +8,7 @@ This project is a fully functional e-commerce web application built from scratch
 
 The primary goal of this project was to gain hands-on experience in developing a modern MERN stack application from start to finish, creating a professional and scalable codebase, and implementing the core and advanced features required for an e-commerce platform.
 
-![Ana Sayfa Görünümü](./src/pages/assets/images/moda_1.png)
+![Ana Sayfa Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_1.png)
 
 ## ✨ Features
 
@@ -94,11 +94,11 @@ To run this project on your local machine, follow these steps:
 
     The application will be available at `http://localhost:3000`.
 
-    ![Ana Sayfa Görünümü](./src/pages/assets/images/moda_1.png)
-    ![Kategoriler Görünümü](./src/pages/assets/images/moda_2.png)
-    ![Giris Yap Görünümü](./src/pages/assets/images/moda_3.png)
-    ![Sepet Görünümü](./src/pages/assets/images/moda_1.png)
+    ![Ana Sayfa Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_1.png)
+    ![Kategoriler Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_2.png)
+    ![Giris Yap Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_3.png)
+    ![Sepet Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_1.png)
 
     **ADMIN KISIMLARI**
-    ![Yönetim Paneli Görünümü](./src/pages/assets/images/moda_admin1.png)
-    ![Ürün Yönetimi Görünümü](./src/pages/assets/images/moda_admin2.png)
+    ![Yönetim Paneli Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_admin1.png)
+    ![Ürün Yönetimi Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_admin2.png)
