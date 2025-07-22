@@ -92,11 +92,11 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
     ```
     Uygulama `http://localhost:3000` adresinde çalışmaya başlayacaktır.
 
-![Ana Sayfa Görünümü](./src/pages/assets/images/moda_1.png)
-![Kategoriler Görünümü](./src/pages/assets/images/moda_2.png)
-![Giris Yap Görünümü](./src/pages/assets/images/moda_3.png)
-![Sepet Görünümü](./src/pages/assets/images/moda_1.png)
+![Ana Sayfa Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_1.png)
+![Kategoriler Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_2.png)
+![Giris Yap Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_3.png)
+![Sepet Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_1.png)
 
 **ADMIN KISIMLARI**
-![Yönetim Paneli Görünümü](./src/pages/assets/images/moda_admin1.png)
-![Ürün Yönetimi Görünümü](./src/pages/assets/images/moda_admin2.png)
+![Yönetim Paneli Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_admin1.png)
+![Ürün Yönetimi Görünümü](./giyim-sitesi-frontend/src/pages/assets/images/moda_admin2.png)
