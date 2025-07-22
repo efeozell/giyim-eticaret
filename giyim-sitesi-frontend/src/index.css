@@ -1,0 +1,25 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  /* Poppins'i varsayılan font yapıyoruz. Yüklenemezse sans-serif kullanır. */
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Arka plan rengini gözü yormayan, çok hafif bir gri yapalım */
+  background-color: #f4f6f9;
+  color: #333; /* Varsayılan metin rengini koyu gri yapalım */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a, button {
+  transition: all 0.3s ease-in-out;
+}

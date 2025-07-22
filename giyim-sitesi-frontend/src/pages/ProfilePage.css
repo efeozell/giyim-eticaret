@@ -1,0 +1,70 @@
+/* src/pages/ProfilePage.css - YENİ VE DÜZELTİLMİŞ HALİ */
+
+/* Bu ana kapsayıcı, sayfanın genişliğini ve ortalanmasını sağlar */
+.profile-page-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.profile-page {
+  display: flex;
+  flex-wrap: wrap; /* Küçük ekranlar için alta sarmasını sağlar */
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.profile-details {
+  flex: 1; /* Esnek genişlik */
+  min-width: 300px; /* Çok fazla daralmasını engelle */
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.profile-details h2 {
+  margin-top: 0;
+}
+
+.profile-orders {
+  flex: 3; /* Esnek genişlik, diğerinden daha büyük */
+  min-width: 300px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden; /* Köşelerin yuvarlak görünmesini sağlar */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.orders-table th, .orders-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.orders-table thead {
+  background-color: #f8f9fa;
+}
+
+.orders-table tr:last-child td {
+  border-bottom: none;
+}
+
+.btn-details {
+  padding: 0.4rem 0.8rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn-details:hover {
+  background-color: #e0e0e0;
+}

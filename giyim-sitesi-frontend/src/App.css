@@ -1,0 +1,12 @@
+/* src/App.css */
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2rem auto; /* üstten-alttan 2rem, sağdan-soldan otomatik ortala */
+  padding: 0 1rem;
+}

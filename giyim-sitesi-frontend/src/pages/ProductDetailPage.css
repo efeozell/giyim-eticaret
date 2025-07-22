@@ -1,0 +1,78 @@
+/* src/pages/ProductDetailPage.css */
+.product-detail-container {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.product-detail-image {
+  flex: 1;
+}
+
+.product-detail-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-detail-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-detail-name {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.product-detail-category {
+  font-size: 1rem;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.product-detail-price {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fdc913;
+  margin-bottom: 1.5rem;
+}
+
+.product-detail-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.add-to-cart-btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start; /* Butonun tüm genişliği kaplamasını engelle */
+}
+
+.add-to-cart-btn:hover {
+  background-color: #218838;
+}
+
+/* src/pages/ProductDetailPage.css dosyasının sonuna ekle */
+.reviews-section { margin-top: 3rem; background: #fff; padding: 2rem; border-radius: 8px; }
+.reviews-list { margin-top: 1.5rem; }
+.review-item { border-bottom: 1px solid #eee; padding: 1rem 0; }
+.review-item:last-child { border-bottom: none; }
+.review-item strong { font-size: 1.1rem; }
+.review-item p { margin: 0.5rem 0; }
+.review-item small { color: #888; }
+.review-form-container { margin-top: 2rem; }

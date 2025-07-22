@@ -1,0 +1,15 @@
+/* src/components/ProductList.css */
+.list-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: #222;
+}
+
+.product-list-container {
+  display: grid;
+  /* Sütunlar: Ekrana sığdığı kadar, min 280px, max 1fr(eşit paylaş) */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem; /* Kartlar arası boşluk */
+}

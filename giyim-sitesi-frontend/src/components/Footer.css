@@ -1,0 +1,36 @@
+/* src/components/Footer.css */
+.footer-container {
+  background-color: #000000; /* Koyu, modern bir lacivert tonu */
+  color: #bdc3c7; /* Gözü yormayan açık gri bir yazı rengi */
+  padding: 3rem 1rem; /* İç ve dış boşluklar */
+  margin-top: 4rem; /* Sayfanın ana içeriği ile arasında boşluk bırakır */
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 4px solid #fdc913; /* Üstüne şık bir mavi çizgi */
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+}
+
+/* "Efe Özel tarafından..." yazısını biraz daha öne çıkaralım */
+.footer-content p:nth-of-type(2) {
+  color: #ecf0f1; /* Daha beyaz bir renk */
+  font-weight: 1000;
+}
+
+.footer-socials {
+  margin-top: 1.5rem;
+}
+
+.footer-socials a {
+  color: #ecf0f1;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease; /* Sadece renk değişimine animasyon */
+}
+
+.footer-socials a:hover {
+  color: #fdc913; /* Üzerine gelince mavi olsun */
+}

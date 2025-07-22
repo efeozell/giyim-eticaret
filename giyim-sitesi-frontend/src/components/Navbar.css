@@ -1,0 +1,177 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Elemanları aralıklı dağıt */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  gap: 2rem; /* Flex elemanları arasına boşluk koy */
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #222;
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a, .navbar-admin a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover, .navbar-admin a:hover {
+  color: #fdc913;
+}
+
+.nav-link-button { color: #fdc913; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; transition: all 0.2s; font-weight: 500; }
+.nav-link-button:hover { background-color: #f0f0f0; }
+.register-btn { background-color: #fdc913; color: white !important; }
+.register-btn:hover { background-color: #000000; color: #fdc913; }
+
+.admin-menu .nav-action-link,
+.admin-menu .logout-btn {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    margin-left: 20px;
+}
+
+
+.admin-menu .nav-action-link {
+    background-color: #fdc913;
+}
+
+
+.admin-menu .logout-btn {
+    background-color: #6c757d; 
+}
+
+
+.admin-menu .nav-action-link:hover,
+.admin-menu .logout-btn:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
+    opacity: 0.95;
+}
+
+/* Navbar.css içine ekle */
+.navbar-controls { display: flex; align-items: center; gap: 1.5rem; }
+.nav-cart-link { position: relative; color: #333; line-height: 1; }
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #fdc913;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.navbar-search {
+  flex: 1 1 auto; /* Büyüyebilir, küçülebilir, otomatik boyutlanır */
+  display: flex;
+  justify-content: center;
+  min-width: 200px; /* Arama çubuğunun çok fazla küçülmesini engeller */
+}
+
+.dropdown {
+  position: relative; /* Açılır menünün konumunu buna göre ayarlayacağız */
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  color: #333;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-toggle .fa-chevron-down {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.dropdown-menu {
+  display: none; /* Başlangıçta menü gizli */
+  position: absolute;
+  right: 0; /* Sağ tarafa hizalı açılmasını sağlar */
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  list-style-type: none;
+  border: 1px solid #f0f0f0;
+}
+
+/* Dropdown butonunun üzerine gelince menüyü görünür yap */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Üzerine gelince ok'u döndür */
+.dropdown:hover .dropdown-toggle .fa-chevron-down {
+  transform: rotate(180deg);
+}
+
+/* Menü içindeki linkler ve butonlar */
+.dropdown-menu a, .dropdown-menu button {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background: none;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.dropdown-menu a:hover, .dropdown-menu button:hover {
+  background-color: #f8f9fa; /* Üzerine gelince hafif gri arka plan */
+}
+
+.dropdown-menu hr {
+    border: none;
+    border-top: 1px solid #f0f0f0;
+    margin: 0.5rem 0;
+}
+
+.logout-btn-dropdown {
+    color: #dc3545 !important; /* Çıkış butonunu kırmızı yap */
+    font-weight: bold;
+}

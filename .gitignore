@@ -1,0 +1,21 @@
+# Bağımlılıklar - Asla Yüklenmemeli!
+# Her alt klasördeki node_modules'ı da kapsar
+*/node_modules/
+
+# Ortam Değişkenleri - Gizli Kalmalı!
+# Her alt klasördeki .env dosyasını da kapsar
+*/.env
+.env
+
+# Log Dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Çıktıları
+build/
+dist/
+
+# macOS & Windows Sistem Dosyaları
+.DS_Store
+Thumbs.db

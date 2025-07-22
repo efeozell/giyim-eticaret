@@ -1,0 +1,58 @@
+/* src/pages/admin/ProductListPageAdmin.css */
+.product-list-admin .list-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+.admin-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.admin-table th,
+.admin-table td {
+	border: 1px solid #ddd;
+	padding: 0.8rem;
+	text-align: left;
+}
+.admin-table thead {
+	background-color: #f8f9fa;
+}
+.admin-table td:last-child {
+	display: flex;
+	gap: 0.5rem;
+}
+.btn-create,
+.btn-edit,
+.btn-delete {
+	text-decoration: none;
+	color: white;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn-create {
+	background-color: #28a745;
+}
+.btn-edit {
+	background-color: #ffc107;
+	color: #212529;
+}
+.btn-delete {
+	background-color: #dc3545;
+}
+/* src/pages/admin/ProductListPageAdmin.css */
+/* ... mevcut stiller ... */
+.btn-feature {
+	background-color: #17a2b8;
+	color: white;
+}
+.btn-feature:hover {
+	background-color: #117a8b;
+}
+.admin-table td:last-child {
+	display: flex;
+	gap: 0.5rem;
+	flex-wrap: wrap; /* Küçük ekranlarda butonların alt alta gelmesini sağlar */
+}

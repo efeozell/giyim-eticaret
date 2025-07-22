@@ -1,0 +1,26 @@
+.search-box { display: flex; border-radius: 50px; border: 1px solid #ddd; overflow: hidden; }
+.search-input {
+  padding: 0.7rem 1.2rem;
+  border: 1px solid #ddd;
+  border-right: none; /* Butonla birleşik görünmesi için */
+  border-radius: 50px 0 0 50px;
+  font-size: 0.9rem;
+  width: 100%; /* İçinde bulunduğu konteynere göre genişlesin */
+  max-width: 400px; /* Ama en fazla 400px olsun */
+  outline: none;
+}
+.search-button {
+  padding: 0.7rem 1.2rem;
+  border: 1px solid #fdc913;
+  background: #fdc913;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 50px 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button:hover {
+  background: #000000;
+}
